@@ -5,7 +5,11 @@ metadata:
   labels:
     app: nginx
 spec:
+<<<<<<< HEAD
   replicas: 4
+=======
+  replicas: 2
+>>>>>>> parent of d439912 (Updated nginx deployment to 3 replicas for higher availability)
   selector:
     matchLabels:
       app: nginx
